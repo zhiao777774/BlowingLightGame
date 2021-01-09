@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+
+main {
+    display: fixed;
+    background-color: white;
+}
+
+#main-div,
+main {
+    background-color: white;
+}
+
+#main-div {
+    width: 85vw;
+    padding: 10px 20px;
+    right: 0;
+}
+
+#main-div,
+nav {
+    height: inherit;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+
+nav {
+    width: 15vw;
+    z-index: 2;
+    background-color: #FFFFF2 !important;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 1);
+    border-top-right-radius: 15px;
+}
+
+nav div.card-header {
+    text-align: center;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+nav div.card-header h4 {
+    width: fit-content;
+    font-weight: bold;
+    font-family: '微軟正黑體', serif;
+    color: brown;
+    background-color: white;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+nav div.card-header button {
+    margin-top: 12px;
+}
+
+nav div.card-body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+nav ul li {
+    font-size: 17px;
+    border-bottom: 1.2px solid black;
+    cursor: pointer;
+}
+
+nav ul li:not(:first-child) {
+    margin-top: 10px;
+}
+
+nav ul li>span:hover {
+    color: rgb(160, 59, 12);
+}
+
+#gamebord-div {
+    padding-bottom: 60px;
+    padding-right: 20px;
+}
+
+#gamebord-div>div.row:first-child {
+    margin-top: 10px;
+}
+
+#gamebord-div>div.row>div div.card-header {
+    cursor: pointer;
+}
+
+#gamebord-div>div.row>div.active div.card-header {
+    background-color: #fff1e1;
+}
+
+#mode-text {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+#mode-text>span {
+    color: red;
+}
+
+table.result-table {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table.result-table thead {
+    background-color: #e8ffd0;
+}
+
+#game-record-table thead {
+    background-color: aliceblue;
+}
+
+#game-record-table {
+    border: 2px solid #dee2e6;
+    text-align: center;
+}
+
+#game-record-table tbody {
+    max-height: 700px;
+}
+
+#float-menu {
+    float: right;
+}
+
+#float-menu h6 {
+    font-weight: bold;
+    display: inline;
+}
+
+#float-menu button {
+    margin-right: 5px;
+    display: none;
+}
+
+.font-msjh {
+    font-family: 微軟正黑體, serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.warning {
+    font-weight: bold;
+    margin-left: 5px;
+    color: red;
+}
+
+.scrollbar {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+table.scrollable thead,
+table.scrollable tbody tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+table.scrollable tbody {
+    display: block;
+    height: 500px;
+}
