@@ -1,6 +1,6 @@
 # 吹氣燈小遊戲 (Blowing Light Game)
 
-詳細內容可查閱<a href="assets/物聯網技術期末專題 - 吹氣燈遊戲(成果報告).pdf" donwolad>介紹文件</a>
+詳細內容可查閱<a href="assets/物聯網技術期末專題 - 吹氣燈遊戲(成果報告).pdf" download>介紹文件</a>
 
 ![系統架構圖](assets/系統架構圖.png)
 
